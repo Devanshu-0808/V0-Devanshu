@@ -1,6 +1,6 @@
-# Harsh Kumar - Portfolio Website
+# Devanshu Chatterjee - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS, showcasing expertise in Full Stack Development, AI/ML, DevOps, Cloud Engineering, and Networking.
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS, showcasing expertise in AI Backend Development, Full Stack Development, Cloud Engineering, and Microservices.
 
 ## 🚀 Features
 
@@ -61,8 +61,8 @@ A modern, responsive portfolio website built with Next.js 14, TypeScript, and Ta
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/harshkumar35/portfolio.git
-   cd portfolio
+   git clone https://github.com/Devanshu-0808/V0-Devanshu.git
+   cd V0-Devanshu
    \`\`\`
 
 2. **Install dependencies**
@@ -129,14 +129,18 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/harshkumar35/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Devanshu-0808/V0-Devanshu/issues).
 
 ## 📞 Contact
 
-- **Email**: harshku612810@gmail.com
-- **LinkedIn**: [linkedin.com/in/harshk251103](https://www.linkedin.com/in/harshk251103/)
-- **GitHub**: [github.com/harshkumar35](https://github.com/harshkumar35)
+- **Email**: devanshuchatterjee1@gmail.com
+- **Phone**: +91-7880241669
+- **LinkedIn**: [linkedin.com/in/devanshu0808](https://www.linkedin.com/in/devanshu0808)
+- **GitHub**: [github.com/Devanshu-0808](https://github.com/Devanshu-0808)
+- **HackerRank**: [hackerrank.com/devanshu_hatte1](https://www.hackerrank.com/profile/devanshu_hatte1)
+- **GeeksforGeeks**: [geeksforgeeks.org/user/devchat0808](https://www.geeksforgeeks.org/user/devchat0808/)
 
 ---
 
-Built with ❤️ by Harsh Kumar
+Built with ❤️ by Devanshu Chatterjee
+</merged_code
