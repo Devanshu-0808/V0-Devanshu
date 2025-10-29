@@ -2,46 +2,39 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
-import { Code, Cloud, Brain, Network, GraduationCap, Award } from "lucide-react"
+import { Code, Cloud, Brain, Network, GraduationCap } from "lucide-react"
 
 export function AboutSection() {
   const highlights = [
     {
       icon: Code,
-      title: "Full Stack Development",
-      description: "Building end-to-end applications with modern technologies",
-    },
-    {
-      icon: Cloud,
-      title: "DevOps & Cloud",
-      description: "Implementing scalable infrastructure and CI/CD pipelines",
+      title: "Backend Development",
+      description: "Building scalable systems with Spring Boot and microservices",
     },
     {
       icon: Brain,
       title: "AI/ML Engineering",
-      description: "Developing intelligent solutions and data-driven applications",
+      description: "Implementing AI solutions with Spring AI and advanced RAG modules",
+    },
+    {
+      icon: Cloud,
+      title: "Cloud & DevOps",
+      description: "AWS infrastructure and containerization with Docker & Kubernetes",
     },
     {
       icon: Network,
-      title: "Networking",
-      description: "CCNA certified with expertise in network architecture",
+      title: "Microservices",
+      description: "Spring Cloud architecture with service discovery and resilience",
     },
   ]
 
   const education = [
     {
-      degree: "B.Tech Computer Science",
-      institution: "GGITS, Jabalpur (RGPV)",
+      degree: "B.Tech Computer Science and Business System",
+      institution: "Gyan Ganga Institute Of Technology And Science, Jabalpur",
       year: "2025",
-      cgpa: "8.0",
+      cgpa: "8.3",
       icon: GraduationCap,
-    },
-    {
-      degree: "Class XII (CBSE)",
-      institution: "Kendriya Vidyalaya No. 2",
-      year: "2021",
-      cgpa: "75%",
-      icon: Award,
     },
   ]
 
@@ -72,14 +65,14 @@ export function AboutSection() {
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">My Journey</h3>
               <div className="space-y-3 sm:space-y-4 text-gray-300 leading-relaxed text-sm sm:text-base">
                 <p>
-                  I'm a passionate Computer Science graduate with a deep fascination for technology and its potential to
-                  solve real-world problems. My journey began with curiosity about how software systems work, which led
-                  me to explore the entire technology stack from frontend interfaces to cloud infrastructure.
+                  I'm a passionate Computer Science graduate from GGITS, Jabalpur with a deep fascination for AI and
+                  backend systems. My journey began with curiosity about how distributed systems work, which led me to
+                  explore the entire technology stack from microservices architecture to cloud infrastructure.
                 </p>
                 <p>
-                  With hands-on experience in Full Stack Development, DevOps practices, Cloud Engineering, and AI/ML
-                  implementations, I bring a holistic approach to building robust, scalable solutions. I'm particularly
-                  excited about the intersection of AI and cloud technologies.
+                  With hands-on experience in Spring Boot, AI/ML implementations, Cloud Engineering, and DevOps
+                  practices, I bring a holistic approach to building robust, scalable backend solutions. I'm
+                  particularly excited about the intersection of AI and cloud technologies.
                 </p>
               </div>
 

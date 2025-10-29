@@ -17,21 +17,20 @@ export function CertificationsSection() {
       logo: "/placeholder.svg?height=60&width=60&text=AWS",
     },
     {
-      title: "Oracle Generative AI Professional",
-      issuer: "Oracle",
+      title: "Microsoft Certified Azure AI Fundamentals (AI-900)",
+      issuer: "Microsoft",
       date: "2024",
-      description:
-        "Comprehensive knowledge of generative AI technologies, implementation strategies, and Oracle AI services.",
-      skills: ["Generative AI", "Machine Learning", "Oracle Cloud", "AI Ethics"],
-      logo: "/placeholder.svg?height=60&width=60&text=Oracle",
+      description: "Comprehensive knowledge of AI concepts, machine learning, and Azure AI services.",
+      skills: ["AI Concepts", "Machine Learning", "Azure AI", "AI Ethics"],
+      logo: "/placeholder.svg?height=60&width=60&text=Azure",
     },
     {
-      title: "CCNA (Cisco Certified Network Associate)",
-      issuer: "Cisco",
-      date: "2023",
-      description: "Networking fundamentals, IP connectivity, IP services, security fundamentals, and automation.",
-      skills: ["Networking", "Routing & Switching", "Network Security", "Troubleshooting"],
-      logo: "/placeholder.svg?height=60&width=60&text=Cisco",
+      title: "Wipro TalentNext Full Stack Java Developer",
+      issuer: "Wipro",
+      date: "2024",
+      description: "Full stack Java development certification covering frontend, backend, and database technologies.",
+      skills: ["Java", "Spring Boot", "Web Development", "Databases"],
+      logo: "/placeholder.svg?height=60&width=60&text=Wipro",
     },
     {
       title: "GitHub Foundations",
@@ -45,8 +44,19 @@ export function CertificationsSection() {
 
   const achievements = [
     {
-      title: "TCS CodeVita Global Rank 2100",
-      description: "Achieved global rank 2100 out of 300,000+ participants in TCS CodeVita programming contest",
+      title: "TCS CodeVita Season-11: Global Rank 1502",
+      description: "Achieved global rank 1502 out of 136,000+ participants in TCS CodeVita programming contest",
+      year: "2024",
+    },
+    {
+      title: "TCS HackQuest Season-9",
+      description: "Cleared TCS HackQuest (National-Level Cybersecurity Challenge)",
+      year: "2024",
+    },
+    {
+      title: "National Innovation Fest-3.0: 3rd Position",
+      description:
+        "Secured 3rd position out of 105 teams as Team Codex. Developed an AI-based website to address the challenge of drafting large quantities of legal documents.",
       year: "2024",
     },
   ]

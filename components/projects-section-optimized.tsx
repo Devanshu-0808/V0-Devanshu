@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github, Sparkles, Zap, Shield, Brain, Rocket, Code2, Eye, ArrowRight } from "lucide-react"
+import { ExternalLink, Github, Sparkles, Brain, Rocket, Code2, Eye, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 // Lazy load the iframe preview component
@@ -32,67 +32,35 @@ export function ProjectsSectionOptimized() {
   const projects = [
     {
       id: 1,
-      title: "LegalSathi",
-      subtitle: "AI-Powered LegalTech Platform",
+      title: "GroupSync",
+      subtitle: "React Music Player Application",
       description:
-        "Revolutionary AI platform democratizing legal assistance through intelligent document analysis and automated legal advice.",
-      problem: "Legal services are expensive and inaccessible to many people",
-      solution: "Built an AI-powered platform that provides affordable legal assistance",
-      impact: "Reduced legal consultation costs by 70% for users",
-      techStack: ["React.js", "Next.js", "Supabase", "Redis", "AI/ML", "Tailwind"],
-      liveDemo: "https://v0-legalsathi.vercel.app/",
-      github: "https://github.com/harshkumar35/legalsathi",
+        "A React-based music player application with real-time collaboration features, allowing users to authenticate, create and join rooms, and play music from various sources.",
+      problem: "Need for seamless collaborative music experience",
+      solution: "Built a responsive music player with real-time room management",
+      impact: "Enabled multiple users to collaborate on music playback in real-time",
+      techStack: ["React", "Tailwind", "Spring Boot", "WebSocket", "AWS-RDS"],
+      liveDemo: "https://github.com/Devanshu-0808/GroupSync",
+      github: "https://github.com/Devanshu-0808/GroupSync",
       icon: Brain,
       gradient: "from-blue-500 to-cyan-500",
-      image: "/placeholder.svg?height=200&width=350&text=LegalSathi+AI+Platform",
+      image: "/placeholder.svg?height=200&width=350&text=GroupSync+Music+Player",
     },
     {
       id: 2,
-      title: "Cloud Monitoring System",
-      subtitle: "Full CI/CD with Docker & K8s",
+      title: "LinkLogic",
+      subtitle: "Real-time Collaborative Coding Platform",
       description:
-        "Comprehensive cloud infrastructure monitoring solution with automated alerts and real-time dashboards.",
-      problem: "Lack of real-time visibility into cloud infrastructure health",
-      solution: "Developed a monitoring system with automated alerts and dashboards",
-      impact: "Improved system uptime by 99.9% and reduced incident response time by 60%",
-      techStack: ["Docker", "Kubernetes", "Prometheus", "Grafana", "AWS", "CI/CD"],
-      liveDemo: null,
-      github: "https://github.com/harshkumar35/Cloud-Native-Monitoring-Application",
-      icon: Shield,
-      gradient: "from-green-500 to-emerald-500",
-      image: "/placeholder.svg?height=200&width=350&text=Cloud+Monitoring+Dashboard",
-    },
-    {
-      id: 3,
-      title: "Prefect ECS Deployment",
-      subtitle: "Terraform + AWS Infrastructure",
-      description:
-        "Automated deployment system for Prefect workflow orchestration on AWS ECS using Terraform for infrastructure as code.",
-      problem: "Manual deployment processes were time-consuming and error-prone",
-      solution: "Automated the entire deployment pipeline using Terraform and AWS ECS",
-      impact: "Reduced deployment time from hours to minutes with zero-downtime deployments",
-      techStack: ["Terraform", "AWS ECS", "Prefect", "Python", "Docker", "IAC"],
-      liveDemo: null,
-      github: "https://github.com/harshkumar35/prefect-ecs-worker",
-      icon: Zap,
-      gradient: "from-purple-500 to-pink-500",
-      image: "/placeholder.svg?height=200&width=350&text=Prefect+ECS+Architecture",
-    },
-    {
-      id: 4,
-      title: "NGINX Reverse Proxy",
-      subtitle: "Golang + Python Microservices",
-      description:
-        "High-performance reverse proxy system with Golang and Python microservices, containerized with Docker.",
-      problem: "Need for efficient load balancing and secure API gateway",
-      solution: "Built a custom reverse proxy with advanced routing and security features",
-      impact: "Improved API response times by 40% and enhanced security posture",
-      techStack: ["Golang", "Python", "NGINX", "Docker", "Microservices", "Redis"],
-      liveDemo: null,
-      github: "https://github.com/harshkumar35/Project-submission",
+        "A collaborative coding platform enabling multiple users to write, edit, and debug code simultaneously with syntax highlighting, code execution, version history, and in-app chat.",
+      problem: "Lack of real-time collaborative coding environment",
+      solution: "Developed a platform with WebSocket integration for live collaboration",
+      impact: "Enabled seamless team coding with version control and communication",
+      techStack: ["HTML", "CSS", "JavaScript", "Spring Boot", "WebSocket", "AWS-RDS"],
+      liveDemo: "https://github.com/Devanshu-0808/LINKLOGIC",
+      github: "https://github.com/Devanshu-0808/LINKLOGIC",
       icon: Sparkles,
-      gradient: "from-orange-500 to-red-500",
-      image: "/placeholder.svg?height=200&width=350&text=NGINX+Proxy+System",
+      gradient: "from-purple-500 to-pink-500",
+      image: "/placeholder.svg?height=200&width=350&text=LinkLogic+Coding+Platform",
     },
   ]
 
@@ -166,11 +134,10 @@ export function ProjectsSectionOptimized() {
               viewport={{ once: true }}
               className="text-xs sm:text-sm lg:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed px-2"
             >
-              A showcase of my best work across{" "}
-              <span className="text-blue-400 font-semibold">Full Stack Development</span>,{" "}
-              <span className="text-purple-400 font-semibold">DevOps</span>,{" "}
+              A showcase of my best work across <span className="text-blue-400 font-semibold">Backend Development</span>
+              , <span className="text-purple-400 font-semibold">AI/ML</span>,{" "}
               <span className="text-pink-400 font-semibold">Cloud Engineering</span>, and{" "}
-              <span className="text-cyan-400 font-semibold">AI/ML</span>
+              <span className="text-cyan-400 font-semibold">Microservices</span>
             </motion.p>
           </motion.div>
         </motion.div>
@@ -351,7 +318,7 @@ export function ProjectsSectionOptimized() {
               className="group relative overflow-hidden bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 text-white border-0 rounded-xl sm:rounded-2xl px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 shadow-lg shadow-blue-500/20 transition-all duration-300"
               asChild
             >
-              <Link href="https://github.com/harshkumar35" target="_blank">
+              <Link href="https://github.com/Devanshu-0808" target="_blank">
                 {/* Content */}
                 <div className="relative flex items-center gap-2 sm:gap-3">
                   <Github className="h-4 w-4 sm:h-5 sm:w-5 group-hover:rotate-6 transition-transform duration-300" />

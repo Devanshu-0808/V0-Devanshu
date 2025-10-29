@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
-import { Code2, Globe, Server, Cloud, Terminal, Database, ChevronRight, Sparkles, Zap } from "lucide-react"
+import { Code2, Globe, Server, Cloud, Terminal, Database, ChevronRight, Sparkles, Zap, Brain } from "lucide-react"
 
 export function SkillsSection() {
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null)
@@ -16,13 +16,10 @@ export function SkillsSection() {
       icon: Code2,
       color: "from-blue-500 to-cyan-500",
       skills: [
-        { name: "JavaScript", level: 95, icon: "🟨" },
-        { name: "Python", level: 90, icon: "🐍" },
-        { name: "C++", level: 90, icon: "💻" },
-        { name: "TypeScript", level: 85, icon: "🔷" },
-        { name: "Java", level: 80, icon: "☕" },
-        { name: "Go", level: 75, icon: "🐹" },
-        { name: "Shell/Bash", level: 85, icon: "🐚" },
+        { name: "Java", level: 95, icon: "☕" },
+        { name: "JavaScript", level: 85, icon: "🟨" },
+        { name: "C++", level: 85, icon: "💻" },
+        { name: "SQL", level: 90, icon: "🗄️" },
       ],
     },
     {
@@ -31,12 +28,9 @@ export function SkillsSection() {
       icon: Globe,
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "React.js", level: 95, icon: "⚛️" },
-        { name: "Next.js", level: 90, icon: "▲" },
+        { name: "ReactJS", level: 85, icon: "⚛️" },
         { name: "Tailwind CSS", level: 90, icon: "🎨" },
-        { name: "HTML/CSS", level: 95, icon: "🌐" },
-        { name: "Vue.js", level: 75, icon: "💚" },
-        { name: "Sass/SCSS", level: 80, icon: "🎨" },
+        { name: "HTML/CSS", level: 90, icon: "🌐" },
       ],
     },
     {
@@ -45,12 +39,12 @@ export function SkillsSection() {
       icon: Server,
       color: "from-orange-500 to-red-500",
       skills: [
-        { name: "Node.js", level: 90, icon: "🟢" },
-        { name: "Flask", level: 85, icon: "🌶️" },
-        { name: "Express.js", level: 88, icon: "🚀" },
+        { name: "Spring Boot", level: 95, icon: "🍃" },
+        { name: "Spring Data JPA", level: 90, icon: "💾" },
+        { name: "Spring Security", level: 85, icon: "🔐" },
+        { name: "Spring Cloud", level: 80, icon: "☁️" },
+        { name: "WebSocket", level: 85, icon: "🔗" },
         { name: "REST APIs", level: 92, icon: "🔗" },
-        { name: "GraphQL", level: 70, icon: "📊" },
-        { name: "Microservices", level: 80, icon: "🔧" },
       ],
     },
     {
@@ -60,11 +54,10 @@ export function SkillsSection() {
       color: "from-sky-500 to-blue-500",
       skills: [
         { name: "AWS", level: 85, icon: "☁️" },
-        { name: "Vercel", level: 90, icon: "▲" },
-        { name: "Supabase", level: 85, icon: "⚡" },
-        { name: "Firebase", level: 80, icon: "🔥" },
-        { name: "Azure", level: 70, icon: "🌐" },
-        { name: "GCP", level: 65, icon: "🌈" },
+        { name: "EC2", level: 80, icon: "🖥️" },
+        { name: "RDS", level: 80, icon: "🗄️" },
+        { name: "S3", level: 85, icon: "📦" },
+        { name: "DynamoDB", level: 75, icon: "⚡" },
       ],
     },
     {
@@ -73,26 +66,35 @@ export function SkillsSection() {
       icon: Terminal,
       color: "from-purple-500 to-indigo-500",
       skills: [
-        { name: "Docker", level: 90, icon: "🐳" },
-        { name: "Kubernetes", level: 85, icon: "☸️" },
-        { name: "CI/CD", level: 85, icon: "🔄" },
+        { name: "Docker", level: 85, icon: "🐳" },
         { name: "Terraform", level: 80, icon: "🏗️" },
-        { name: "NGINX", level: 80, icon: "🌐" },
-        { name: "Git/GitHub", level: 95, icon: "🐙" },
+        { name: "GitHub", level: 90, icon: "🐙" },
+        { name: "Kubernetes", level: 75, icon: "☸️" },
       ],
     },
     {
       id: "database",
-      title: "Databases & Storage",
+      title: "Databases & ORM",
       icon: Database,
       color: "from-pink-500 to-rose-500",
       skills: [
-        { name: "MongoDB", level: 80, icon: "🍃" },
-        { name: "PostgreSQL", level: 75, icon: "🐘" },
-        { name: "Redis", level: 75, icon: "🔴" },
-        { name: "MySQL", level: 78, icon: "🐬" },
-        { name: "DynamoDB", level: 70, icon: "⚡" },
-        { name: "SQLite", level: 85, icon: "💎" },
+        { name: "Oracle Database", level: 85, icon: "🗄️" },
+        { name: "JDBC", level: 85, icon: "🔗" },
+        { name: "Hibernate", level: 80, icon: "🍃" },
+        { name: "SQL", level: 90, icon: "📊" },
+      ],
+    },
+    {
+      id: "ai",
+      title: "AI Framework",
+      icon: Brain,
+      color: "from-cyan-500 to-blue-500",
+      skills: [
+        { name: "Spring AI", level: 85, icon: "🤖" },
+        { name: "ChatModel", level: 80, icon: "💬" },
+        { name: "Embeddings", level: 80, icon: "📊" },
+        { name: "RAG Modules", level: 85, icon: "🧠" },
+        { name: "VectorDB", level: 75, icon: "📈" },
       ],
     },
   ]
@@ -254,10 +256,10 @@ export function SkillsSection() {
           className="mt-6 sm:mt-8 lg:mt-12 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 lg:gap-6"
         >
           {[
-            { label: "Languages", count: "7+", icon: Code2, color: "from-blue-500 to-cyan-500" },
-            { label: "Frameworks", count: "15+", icon: Sparkles, color: "from-green-500 to-emerald-500" },
-            { label: "Cloud Tools", count: "12+", icon: Cloud, color: "from-sky-500 to-blue-500" },
-            { label: "Experience", count: "3+", icon: Zap, color: "from-orange-500 to-red-500" },
+            { label: "Languages", count: "4", icon: Code2, color: "from-blue-500 to-cyan-500" },
+            { label: "Frameworks", count: "10+", icon: Sparkles, color: "from-green-500 to-emerald-500" },
+            { label: "Cloud Tools", count: "8+", icon: Cloud, color: "from-sky-500 to-blue-500" },
+            { label: "Experience", count: "4+", icon: Zap, color: "from-orange-500 to-red-500" },
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

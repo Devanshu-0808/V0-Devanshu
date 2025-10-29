@@ -81,26 +81,26 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "harshku612810@gmail.com",
-      href: "mailto:harshku612810@gmail.com",
+      value: "devanshuchatterjee1@gmail.com",
+      href: "mailto:devanshuchatterjee1@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 6261345283",
-      href: "tel:+916261345283",
+      value: "+91 7880241669",
+      href: "tel:+917880241669",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/harshkumar35",
-      href: "https://github.com/harshkumar35",
+      value: "github.com/Devanshu-0808",
+      href: "https://github.com/Devanshu-0808",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/harshk251103",
-      href: "https://www.linkedin.com/in/harshk251103/",
+      value: "linkedin.com/in/devanshu0808",
+      href: "https://www.linkedin.com/in/devanshu0808/",
     },
   ]
 
@@ -228,7 +228,7 @@ export function ContactSection() {
                   className="glass-card border-white/20 hover:bg-white/10 text-white bg-transparent"
                   asChild
                 >
-                  <Link href="https://github.com/harshkumar35" target="_blank">
+                  <Link href="https://github.com/Devanshu-0808" target="_blank">
                     View GitHub
                   </Link>
                 </Button>

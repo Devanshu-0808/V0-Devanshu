@@ -13,36 +13,35 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Harsh Kumar - Full Stack Developer & Cloud Engineer",
+  title: "Devanshu Chatterjee - AI Backend Developer",
   description:
-    "Computer Science Graduate specializing in Full Stack Development, AI/ML, DevOps, Cloud Engineering, and Networking. AWS Certified with expertise in React, Node.js, Docker, Kubernetes.",
-  keywords:
-    "Full Stack Developer, DevOps Engineer, Cloud Engineer, AI/ML, React, Node.js, AWS, Docker, Kubernetes, CCNA",
-  authors: [{ name: "Harsh Kumar" }],
+    "Computer Science graduate specializing in AI Backend Development, Spring Boot, Cloud Engineering, and Microservices. AWS Certified with expertise in Java, Spring AI, and Cloud technologies.",
+  keywords: "AI Backend Developer, Spring Boot, Java, Cloud Engineer, AI/ML, AWS, Docker, Microservices, Spring Cloud",
+  authors: [{ name: "Devanshu Chatterjee" }],
   openGraph: {
-    title: "Harsh Kumar - Full Stack Developer & Cloud Engineer",
+    title: "Devanshu Chatterjee - AI Backend Developer",
     description:
-      "Computer Science Graduate specializing in Full Stack Development, AI/ML, DevOps, Cloud Engineering, and Networking.",
-    url: "https://harshkumar.dev",
-    siteName: "Harsh Kumar Portfolio",
+      "Computer Science graduate specializing in AI Backend Development, Spring Boot, Cloud Engineering, and Microservices.",
+    url: "https://devanshu.dev",
+    siteName: "Devanshu Chatterjee Portfolio",
     type: "website",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Harsh Kumar - Full Stack Developer Portfolio",
+        alt: "Devanshu Chatterjee - AI Backend Developer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harsh Kumar - Full Stack Developer & Cloud Engineer",
+    title: "Devanshu Chatterjee - AI Backend Developer",
     description:
-      "Computer Science Graduate specializing in Full Stack Development, AI/ML, DevOps, Cloud Engineering, and Networking.",
+      "Computer Science graduate specializing in AI Backend Development, Spring Boot, Cloud Engineering, and Microservices.",
     images: ["/og-image.png"],
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({

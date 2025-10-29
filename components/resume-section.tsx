@@ -14,71 +14,61 @@ export function ResumeSection() {
   const resumeTypes = [
     {
       id: "sde",
-      title: "Software Development Engineer",
-      subtitle: "Full Stack Development",
+      title: "Backend Developer",
+      subtitle: "Spring Boot & Microservices",
       description:
-        "Comprehensive resume highlighting full-stack development skills, web technologies, and software engineering experience.",
+        "Comprehensive resume highlighting backend development skills, Spring Boot expertise, microservices architecture, and cloud technologies.",
       icon: Code,
       color: "from-blue-500 to-cyan-500",
-      skills: ["React.js", "Node.js", "TypeScript", "Next.js", "MongoDB", "PostgreSQL"],
-      downloadUrl: "/resumes/harsh-kumar-sde-resume.pdf",
+      skills: ["Spring Boot", "Java", "Microservices", "REST APIs", "PostgreSQL", "AWS"],
+      downloadUrl: "/resumes/devanshu-backend-resume.pdf",
       highlights: [
-        "Full Stack Web Development",
-        "Modern JavaScript Frameworks",
+        "Spring Boot Development",
+        "Microservices Architecture",
         "Database Design & Management",
         "API Development & Integration",
       ],
     },
     {
       id: "devops",
-      title: "DevOps Engineer",
-      subtitle: "Infrastructure & Automation",
+      title: "Cloud Engineer",
+      subtitle: "AWS & Infrastructure",
       description:
-        "DevOps-focused resume emphasizing CI/CD, containerization, infrastructure automation, and cloud operations.",
+        "Cloud-focused resume emphasizing AWS expertise, infrastructure automation, containerization, and DevOps practices.",
       icon: Settings,
       color: "from-green-500 to-emerald-500",
-      skills: ["Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible", "GitLab CI"],
-      downloadUrl: "/resumes/harsh-kumar-devops-resume.pdf",
+      skills: ["AWS", "Docker", "Terraform", "Kubernetes", "CI/CD", "Spring Cloud"],
+      downloadUrl: "/resumes/devanshu-cloud-resume.pdf",
       highlights: [
-        "CI/CD Pipeline Development",
+        "AWS Infrastructure",
         "Container Orchestration",
         "Infrastructure as Code",
-        "Monitoring & Logging",
+        "Microservices Deployment",
       ],
     },
     {
       id: "aiml",
-      title: "AI/ML Engineer",
-      subtitle: "Artificial Intelligence & Machine Learning",
+      title: "AI Backend Engineer",
+      subtitle: "Spring AI & LLM Integration",
       description:
-        "Specialized resume focusing on AI/ML projects, data science skills, and machine learning implementations.",
+        "Specialized resume focusing on AI/ML integration with Spring AI, LLM implementations, and intelligent backend systems.",
       icon: Brain,
       color: "from-purple-500 to-pink-500",
-      skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"],
-      downloadUrl: "/resumes/harsh-kumar-aiml-resume.pdf",
-      highlights: [
-        "Machine Learning Algorithms",
-        "Deep Learning & Neural Networks",
-        "Data Analysis & Visualization",
-        "AI Model Development",
-      ],
+      skills: ["Spring AI", "ChatModel", "Embeddings", "RAG", "VectorDB", "LLM"],
+      downloadUrl: "/resumes/devanshu-ai-resume.pdf",
+      highlights: ["Spring AI Integration", "LLM Implementation", "RAG Modules", "AI-Powered Backends"],
     },
     {
       id: "cloud",
-      title: "Cloud Engineer",
-      subtitle: "Cloud Architecture & Solutions",
+      title: "Full Stack Developer",
+      subtitle: "Java & React",
       description:
-        "Cloud-specialized resume showcasing AWS expertise, cloud architecture, and scalable cloud solutions.",
+        "Full-stack specialized resume showcasing Java backend expertise combined with React frontend skills and cloud deployment.",
       icon: Cloud,
       color: "from-orange-500 to-red-500",
-      skills: ["AWS", "Azure", "GCP", "CloudFormation", "Lambda", "S3"],
-      downloadUrl: "/resumes/harsh-kumar-cloud-resume.pdf",
-      highlights: [
-        "Cloud Architecture Design",
-        "Serverless Computing",
-        "Cloud Security & Compliance",
-        "Cost Optimization",
-      ],
+      skills: ["Java", "Spring Boot", "React", "Tailwind CSS", "AWS", "Docker"],
+      downloadUrl: "/resumes/devanshu-fullstack-resume.pdf",
+      highlights: ["Full Stack Development", "Spring Boot Backend", "React Frontend", "Cloud Deployment"],
     },
   ]
 
@@ -234,17 +224,17 @@ export function ResumeSection() {
                         {activeResume === "devops" && (
                           <div className="space-y-4 text-sm">
                             <div className="text-center border-b border-white/10 pb-4">
-                              <h1 className="text-lg font-bold text-white">Harsh Kumar</h1>
-                              <p className="text-gray-300">harshku612810@gmail.com • +91 6261345283</p>
-                              <p className="text-gray-400">LinkedIn • GitHub • LeetCode</p>
+                              <h1 className="text-lg font-bold text-white">Devanshu Chatterjee</h1>
+                              <p className="text-gray-300">devanshuchatterjee1@gmail.com • +91 7880241669</p>
+                              <p className="text-gray-400">LinkedIn • GitHub • HackerRank</p>
                             </div>
 
                             <div>
                               <h2 className="font-semibold text-white mb-2">Summary</h2>
                               <p className="text-gray-300 text-xs leading-relaxed">
-                                DevOps Engineer with strong foundation in Linux, AWS, containers, CI/CD, and
-                                observability. Experienced in automating cloud infrastructure using Terraform and
-                                monitoring production-grade systems.
+                                AI Backend Developer with strong foundation in Spring Boot, AWS, microservices, and
+                                cloud infrastructure. Experienced in building scalable backend systems and deploying
+                                cloud-native applications.
                               </p>
                             </div>
 
@@ -252,23 +242,23 @@ export function ResumeSection() {
                               <h2 className="font-semibold text-white mb-2">Technical Skills</h2>
                               <div className="text-xs text-gray-300 space-y-1">
                                 <p>
-                                  <span className="text-blue-400">Languages:</span> Python, Bash, Go, Shell, JavaScript
+                                  <span className="text-blue-400">Languages:</span> Java, JavaScript, C++, SQL
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">Cloud Platforms:</span> AWS (ECS, EC2, RDS, Lambda),
-                                  Oracle Cloud, GCP
+                                  <span className="text-blue-400">Backend:</span> Spring Boot, Spring Data JPA, Spring
+                                  Security, Spring Cloud
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">Containerization:</span> Docker, Kubernetes, ECS
-                                  Fargate, Helm
+                                  <span className="text-blue-400">Cloud:</span> AWS (EC2, S3, RDS, DynamoDB), Docker,
+                                  Kubernetes
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">IaC / Automation:</span> Terraform, Ansible,
-                                  CloudFormation
+                                  <span className="text-blue-400">Databases:</span> Oracle Database, JDBC, Hibernate,
+                                  SQL
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">CI/CD & GitOps:</span> GitHub Actions, Jenkins,
-                                  ArgoCD, AWS CodePipeline
+                                  <span className="text-blue-400">AI Framework:</span> Spring AI, ChatModel, Embeddings,
+                                  RAG
                                 </p>
                               </div>
                             </div>
@@ -277,18 +267,18 @@ export function ResumeSection() {
                               <h2 className="font-semibold text-white mb-2">Key Projects</h2>
                               <div className="space-y-2 text-xs">
                                 <div>
-                                  <h3 className="font-medium text-gray-200">
-                                    Prefect Worker on AWS ECS (IaC + Secrets)
-                                  </h3>
+                                  <h3 className="font-medium text-gray-200">GroupSync - Music Player Application</h3>
                                   <p className="text-gray-400">
-                                    Automated ECS Fargate infra using Terraform with VPC, Subnets, IAM, and ECS services
+                                    React-based music player with real-time collaboration using WebSocket and Spring
+                                    Boot
                                   </p>
                                 </div>
                                 <div>
-                                  <h3 className="font-medium text-gray-200">Cloud Monitoring System</h3>
+                                  <h3 className="font-medium text-gray-200">
+                                    LinkLogic - Collaborative Coding Platform
+                                  </h3>
                                   <p className="text-gray-400">
-                                    Built Flask-based system to monitor DB and system metrics via cron-style health
-                                    checks
+                                    Real-time collaborative coding platform with syntax highlighting and version history
                                   </p>
                                 </div>
                               </div>
@@ -297,7 +287,7 @@ export function ResumeSection() {
                             <div>
                               <h2 className="font-semibold text-white mb-2">Certifications</h2>
                               <p className="text-xs text-gray-300">
-                                AWS Cloud Practitioner • Oracle OCI Gen AI • Cisco Networking • GitHub Foundations
+                                AWS Cloud Practitioner • Azure AI Fundamentals • Wipro TalentNext • GitHub Foundations
                               </p>
                             </div>
                           </div>
@@ -306,17 +296,17 @@ export function ResumeSection() {
                         {activeResume === "sde" && (
                           <div className="space-y-4 text-sm">
                             <div className="text-center border-b border-white/10 pb-4">
-                              <h1 className="text-lg font-bold text-white">Harsh Kumar</h1>
-                              <p className="text-gray-300">harshku612810@gmail.com • +91 6261345283</p>
-                              <p className="text-gray-400">LinkedIn • GitHub • LeetCode</p>
+                              <h1 className="text-lg font-bold text-white">Devanshu Chatterjee</h1>
+                              <p className="text-gray-300">devanshuchatterjee1@gmail.com • +91 7880241669</p>
+                              <p className="text-gray-400">LinkedIn • GitHub • HackerRank</p>
                             </div>
 
                             <div>
                               <h2 className="font-semibold text-white mb-2">Summary</h2>
                               <p className="text-gray-300 text-xs leading-relaxed">
-                                Computer Science graduate specializing in distributed systems and cloud-native
-                                solutions. Proven expertise in building scalable AWS applications and developing
-                                fault-tolerant systems.
+                                Computer Science graduate specializing in backend development with Spring Boot and
+                                microservices. Proven expertise in building scalable systems and cloud-native
+                                applications.
                               </p>
                             </div>
 
@@ -324,23 +314,21 @@ export function ResumeSection() {
                               <h2 className="font-semibold text-white mb-2">Technical Skills</h2>
                               <div className="text-xs text-gray-300 space-y-1">
                                 <p>
-                                  <span className="text-blue-400">Cloud:</span> AWS (EC2, S3, RDS, Lambda, DynamoDB,
-                                  IAM), Azure, OCI
+                                  <span className="text-blue-400">Languages:</span> Java, JavaScript, C++, SQL
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">Languages:</span> Python, JavaScript, C++, TypeScript,
-                                  Java
+                                  <span className="text-blue-400">Backend:</span> Spring Boot, Spring Data JPA, Spring
+                                  Security, WebSocket
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">Frameworks:</span> React, Node.js, Next.js, Flask,
-                                  REST APIs
+                                  <span className="text-blue-400">Frontend:</span> ReactJS, Tailwind CSS, HTML/CSS
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">Databases:</span> MongoDB, AWS RDS, DynamoDB, MySQL,
-                                  Firebase
+                                  <span className="text-blue-400">Databases:</span> Oracle Database, JDBC, Hibernate,
+                                  SQL
                                 </p>
                                 <p>
-                                  <span className="text-blue-400">DevOps:</span> Docker, GitHub Actions, Jenkins, CI/CD
+                                  <span className="text-blue-400">Cloud & DevOps:</span> AWS, Docker, Terraform, GitHub
                                 </p>
                               </div>
                             </div>
@@ -349,17 +337,18 @@ export function ResumeSection() {
                               <h2 className="font-semibold text-white mb-2">Key Projects</h2>
                               <div className="space-y-2 text-xs">
                                 <div>
-                                  <h3 className="font-medium text-gray-200">
-                                    LegalSathi - AI-Powered LegalTech Platform
-                                  </h3>
+                                  <h3 className="font-medium text-gray-200">GroupSync - Music Player Application</h3>
                                   <p className="text-gray-400">
-                                    AI-powered platform handling 5K+ daily queries with automated document generation
+                                    React-based music player with real-time room management and WebSocket integration
                                   </p>
                                 </div>
                                 <div>
-                                  <h3 className="font-medium text-gray-200">Cloud-Native Monitoring System</h3>
+                                  <h3 className="font-medium text-gray-200">
+                                    LinkLogic - Collaborative Coding Platform
+                                  </h3>
                                   <p className="text-gray-400">
-                                    Automated system/database health checks improving operational efficiency by 60%
+                                    Real-time collaborative coding with syntax highlighting, execution, and version
+                                    history
                                   </p>
                                 </div>
                               </div>
@@ -368,16 +357,18 @@ export function ResumeSection() {
                             <div>
                               <h2 className="font-semibold text-white mb-2">Education</h2>
                               <p className="text-xs text-gray-300">
-                                B.Tech, Computer Science & Business Systems - GGITS, Jabalpur (CGPA: 8.0/10)
+                                B.Tech, Computer Science and Business System - GGITS, Jabalpur (CGPA: 8.3/10)
                               </p>
                             </div>
 
                             <div>
                               <h2 className="font-semibold text-white mb-2">Achievements</h2>
                               <div className="text-xs text-gray-300 space-y-1">
-                                <p>• Patent Holder: Smart Cap #387924-001 (IoT innovation)</p>
-                                <p>• TCS CodeVita Season 12 - Global Rank 2100 (Top 1%)</p>
-                                <p>• Lakshya Award 2025: "Best Student of the College"</p>
+                                <p>• TCS CodeVita Season-11: Global Rank 1502 (Top 1%)</p>
+                                <p>• TCS HackQuest Season-9: Cleared National-Level Cybersecurity Challenge</p>
+                                <p>
+                                  • National Innovation Fest-3.0: 3rd Position with AI-based Legal Document Platform
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -386,17 +377,17 @@ export function ResumeSection() {
                         {(activeResume === "aiml" || activeResume === "cloud") && (
                           <div className="space-y-4 text-sm">
                             <div className="text-center border-b border-white/10 pb-4">
-                              <h1 className="text-lg font-bold text-white">Harsh Kumar</h1>
-                              <p className="text-gray-300">harshku612810@gmail.com • +91 6261345283</p>
-                              <p className="text-gray-400">LinkedIn • GitHub • LeetCode</p>
+                              <h1 className="text-lg font-bold text-white">Devanshu Chatterjee</h1>
+                              <p className="text-gray-300">devanshuchatterjee1@gmail.com • +91 7880241669</p>
+                              <p className="text-gray-400">LinkedIn • GitHub • HackerRank</p>
                             </div>
 
                             <div>
                               <h2 className="font-semibold text-white mb-2">Summary</h2>
                               <p className="text-gray-300 text-xs leading-relaxed">
                                 {activeResume === "aiml"
-                                  ? "AI/ML Engineer with expertise in machine learning algorithms, deep learning, and data analysis. Experience in building intelligent systems and predictive models."
-                                  : "Cloud Engineer specializing in AWS architecture, serverless computing, and scalable cloud solutions. Expert in cloud security and cost optimization."}
+                                  ? "AI Backend Engineer with expertise in Spring AI, LLM integration, and intelligent backend systems. Experience in building AI-powered applications and RAG modules."
+                                  : "Cloud Engineer specializing in AWS architecture, microservices deployment, and infrastructure automation. Expert in containerization and cloud-native solutions."}
                               </p>
                             </div>
 
@@ -406,38 +397,37 @@ export function ResumeSection() {
                                 {activeResume === "aiml" ? (
                                   <>
                                     <p>
-                                      <span className="text-blue-400">Languages:</span> Python, R, SQL, JavaScript
+                                      <span className="text-blue-400">Languages:</span> Java, JavaScript, Python, SQL
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">ML/AI:</span> TensorFlow, PyTorch, Scikit-learn,
-                                      Pandas, NumPy
+                                      <span className="text-blue-400">AI Framework:</span> Spring AI, ChatModel,
+                                      Embeddings, RAG, VectorDB
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">Data:</span> Data Analysis, Visualization,
-                                      Statistical Modeling
+                                      <span className="text-blue-400">Backend:</span> Spring Boot, Microservices, REST
+                                      APIs
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">Cloud:</span> AWS SageMaker, Google AI Platform,
-                                      Azure ML
+                                      <span className="text-blue-400">Cloud:</span> AWS, Docker, Kubernetes
                                     </p>
                                   </>
                                 ) : (
                                   <>
                                     <p>
-                                      <span className="text-blue-400">Cloud Platforms:</span> AWS, Azure, Google Cloud
-                                      Platform
+                                      <span className="text-blue-400">Cloud Platforms:</span> AWS (EC2, S3, RDS,
+                                      DynamoDB)
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">Services:</span> EC2, S3, Lambda, RDS, DynamoDB,
-                                      CloudFormation
+                                      <span className="text-blue-400">Infrastructure:</span> Docker, Kubernetes,
+                                      Terraform
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">Architecture:</span> Serverless, Microservices,
-                                      Event-Driven
+                                      <span className="text-blue-400">Backend:</span> Spring Boot, Spring Cloud,
+                                      Microservices
                                     </p>
                                     <p>
-                                      <span className="text-blue-400">Security:</span> IAM, VPC, Security Groups,
-                                      Compliance
+                                      <span className="text-blue-400">DevOps:</span> GitHub, CI/CD, Infrastructure as
+                                      Code
                                     </p>
                                   </>
                                 )}
@@ -445,10 +435,11 @@ export function ResumeSection() {
                             </div>
 
                             <div>
-                              <h2 className="font-semibold text-white mb-2">Relevant Experience</h2>
-                              <div className="text-xs text-gray-300">
-                                <p>Cloud Security Intern - Cisco Systems (Jul 2024 – Sep 2024)</p>
-                                <p>Full Stack & DevOps Engineer Intern - DesignSphere Labs (Nov 2024 – Feb 2025)</p>
+                              <h2 className="font-semibold text-white mb-2">Key Achievements</h2>
+                              <div className="text-xs text-gray-300 space-y-1">
+                                <p>• TCS CodeVita Global Rank 1502 out of 136,000+ participants</p>
+                                <p>• National Innovation Fest 3rd Position - AI Legal Document Platform</p>
+                                <p>• AWS Cloud Practitioner Certified</p>
                               </div>
                             </div>
 
@@ -456,8 +447,8 @@ export function ResumeSection() {
                               <h2 className="font-semibold text-white mb-2">Certifications</h2>
                               <p className="text-xs text-gray-300">
                                 {activeResume === "aiml"
-                                  ? "Oracle OCI Generative AI • AWS Cloud Practitioner • GitHub Foundations"
-                                  : "AWS Cloud Practitioner • Oracle OCI • Cisco CCNA • GitHub Foundations"}
+                                  ? "Azure AI Fundamentals • AWS Cloud Practitioner • Wipro TalentNext • GitHub Foundations"
+                                  : "AWS Cloud Practitioner • Azure AI Fundamentals • Wipro TalentNext • GitHub Foundations"}
                               </p>
                             </div>
                           </div>

@@ -48,22 +48,24 @@ export function HeroSection() {
               </div>
 
               <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-bold mb-3 sm:mb-4 lg:mb-6 leading-tight">
-                <span className="dynamic-text">Harsh</span>{" "}
+                <span className="dynamic-text">Devanshu</span>{" "}
                 <span className="dynamic-text" style={{ animationDelay: "2s" }}>
-                  Kumar
+                  Chatterjee
                 </span>
               </h1>
 
               <div className="space-y-1 sm:space-y-2 mb-4 sm:mb-6 lg:mb-8">
                 <p className="text-base sm:text-lg lg:text-xl dynamic-text" style={{ animationDelay: "1s" }}>
-                  Computer Science Graduate
+                  AI Backend Developer
                 </p>
-                <p className="text-xs sm:text-sm lg:text-lg text-gray-400">AI/ML • DevOps • Cloud • SRE • Networking</p>
+                <p className="text-xs sm:text-sm lg:text-lg text-gray-400">
+                  Spring Boot • Cloud • Microservices • AI/ML • DevOps
+                </p>
               </div>
 
               <p className="text-gray-400 mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
-                Passionate about building scalable applications, implementing robust cloud infrastructure, and exploring
-                the frontiers of AI/ML technology.
+                Passionate about building scalable backend systems, implementing AI-powered solutions, and architecting
+                cloud-native microservices.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -105,19 +107,19 @@ export function HeroSection() {
               </h3>
               <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:gap-4">
                 <div className="text-center">
-                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-400">8.0</div>
+                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-400">8.3</div>
                   <div className="text-xs text-gray-400">CGPA</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-purple-400">3+</div>
+                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-purple-400">4</div>
                   <div className="text-xs text-gray-400">Certifications</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-green-400">2100</div>
+                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-green-400">1502</div>
                   <div className="text-xs text-gray-400">CodeVita Rank</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-yellow-400">4+</div>
+                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-yellow-400">2</div>
                   <div className="text-xs text-gray-400">Major Projects</div>
                 </div>
               </div>
@@ -136,15 +138,15 @@ export function HeroSection() {
               <div className="space-y-2 sm:space-y-3">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-green-400 rounded-full animate-pulse" />
-                  <span className="text-xs sm:text-sm text-gray-300">LegalSathi AI Platform</span>
+                  <span className="text-xs sm:text-sm text-gray-300">Spring AI Integration</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-400 rounded-full animate-pulse" />
-                  <span className="text-xs sm:text-sm text-gray-300">Cloud Monitoring System</span>
+                  <span className="text-xs sm:text-sm text-gray-300">Microservices Architecture</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full animate-pulse" />
-                  <span className="text-xs sm:text-sm text-gray-300">DevOps Automation</span>
+                  <span className="text-xs sm:text-sm text-gray-300">Cloud Deployment</span>
                 </div>
               </div>
             </motion.div>
@@ -157,14 +159,14 @@ export function HeroSection() {
               className="glass-card rounded-xl sm:rounded-2xl lg:rounded-3xl p-3 sm:p-4 lg:p-6 tilt-card"
             >
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-white mb-2 sm:mb-3 lg:mb-4">
-                Patent Holder
+                Key Achievements
               </h3>
               <div className="space-y-1 sm:space-y-2">
                 <div className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-yellow-400 rounded-full" />
-                  <span className="text-xs sm:text-sm text-gray-300">Smart Cap Design Patent</span>
+                  <span className="text-xs sm:text-sm text-gray-300">TCS CodeVita Global Rank 1502</span>
                 </div>
-                <p className="text-xs text-gray-400">Patent #387924-001</p>
+                <p className="text-xs text-gray-400">Out of 136,000+ participants</p>
               </div>
             </motion.div>
           </div>
